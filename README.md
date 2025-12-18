@@ -9,14 +9,22 @@ Experience the AI-driven research assistant immediately:
 
 ## Overview
 
-**Auto-MLP** is a comprehensive framework designed to automate the development of Machine Learning Potentials (MLPs) for complex atomic systems. It integrates active learning strategies, high-throughput density functional theory (DFT) calculations, and deep learning model training into a closed-loop system.
+This repository hosts the core computational modules and AI integration tools developed for our research: **"AI-driven discovery of combustion mechanisms in aluminum nanoparticles."**
 
-This repository contains the core computational modules and analysis scripts used in our research on **AI-driven discovery of combustion mechanisms in aluminum nanoparticles**.
+While our ultimate vision is a fully autonomous "Auto-MLP" system for new material discovery, the current release focuses on the **AI-assisted development framework** that we have successfully implemented.
+
+**Our Current Focus:**
+*   **AI-Guided Active Learning:** Leveraging AI agents to supervise the iterative training of DeepMD potentials, significantly reducing human intervention.
+*   **Combustion Mechanism Analysis:** Specialized tools for analyzing the oxidation and sintering behaviors of aluminum nanoparticles.
+*   **MCP Integration:** Bridging the gap between atomic simulations and AI reasoning capabilities.
+
+**Future Vision:**
+We are actively working towards a completely closed-loop "Auto-MLP" system capable of autonomous training, validation, and discovery of novel materials without human-in-the-loop.
 
 **Key Capabilities:**
 *   **Active Learning:** Automated exploration of chemical space using uncertainty quantification (Query-by-Committee).
-*   **DeepMD Integration:** Seamless interface with DeepMD-kit for training and inference.
-*   **Advanced Analysis:** Tools for Gaussian density analysis, SOAP descriptor calculation, and structural visualization.
+*   **DeepMD Integration:** Seamless interface with DeepMD-kit inference.
+*   **Analysis:** Tools for Gaussian density analysis, SOAP descriptor calculation, and structural visualization.
 *   **MCP Support:** Implements the Model Context Protocol (MCP) for integration with AI agents.
 
 ## Repository Structure
@@ -35,7 +43,7 @@ Auto-MLP/
 └── README.md           # This file
 ```
 
-## Installation
+## Development
 
 ### Prerequisites
 
