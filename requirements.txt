@@ -1,0 +1,11 @@
+numpy>=1.20.0
+scipy>=1.7.0
+matplotlib>=3.4.0
+ase>=3.22.0
+torch>=1.10.0
+freud-analysis>=2.10.0
+tqdm>=4.60.0
+fastmcp>=0.1.0
+dscribe>=1.2.0
+# deepmd-kit is required for inference but often installed via conda/pip separately
+# deepmd-kit>=2.0.0 
