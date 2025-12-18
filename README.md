@@ -2,7 +2,7 @@
 
 ## Quick Start: Online AI Agent Demo
 
-Experience the AI-driven research assistant immediately without installation:
+Experience the AI-driven research assistant immediately:
 **[Try the AI Agent Online](https://research-helper.digauto.org)**
 
 ---
