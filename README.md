@@ -111,11 +111,9 @@ python src/mcp_inference.py
 
 ## Data Availability
 
-The AI agent is now available online at [https://www.digauto.org](https://www.digauto.org).
+The AI agent, trained machine learning potential (MLP) models, and the comprehensive dataset (containing ~90,000 atomic configurations with DFT energies/forces) are all hosted on the **Digital Automation for Scientific Discovery** platform (DigAuto): [https://www.digauto.org](https://www.digauto.org).
 
-Key computational code including the MCP module for our closed-loop AI agent framework, trained machine learning potential (MLP) models, and analysis scripts are available in this GitHub repository.
-
-The comprehensive MLP training dataset containing approximately 90,000 atomic configurations with corresponding DFT energies and forces is hosted on the **Digital Automation for Scientific Discovery** platform (DigAuto): [https://www.digauto.org](https://www.digauto.org).
+Key computational code, including the MCP module for our closed-loop AI agent framework and analysis scripts, is available in this GitHub repository.
 
 ## Citation
 
