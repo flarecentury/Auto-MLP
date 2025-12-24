@@ -3,7 +3,16 @@
 ## Quick Start: Online AI Agent Demo
 
 Experience the AI-driven research assistant immediately:
-**[Try the AI Agent Online](https://research-helper.digauto.org)**
+**[Try the AI Agent Online](https://www.digauto.org)**
+
+---
+
+## Demo Video
+
+<video src="data/videos/Video1_mlp_ai_agents.mp4" controls="controls" style="max-width: 100%;">
+</video>
+
+[Download Video](data/videos/Video1_mlp_ai_agents.mp4)
 
 ---
 
@@ -102,7 +111,7 @@ python src/mcp_inference.py
 
 ## Data Availability
 
-The AI agent is now available online at [https://research-helper.digauto.org](https://research-helper.digauto.org).
+The AI agent is now available online at [https://www.digauto.org](https://www.digauto.org).
 
 Key computational code including the MCP module for our closed-loop AI agent framework, trained machine learning potential (MLP) models, and analysis scripts are available in this GitHub repository.
 
@@ -120,8 +129,7 @@ If you use this code in your research, please cite our work:
 > - **Zhang Di**
 > - **Lili Ye** (Corresponding Author)
 > - **Hao Li** (Corresponding Author)
-> - **Mingshu Bi**
-
+> 
 
 ## License
 
