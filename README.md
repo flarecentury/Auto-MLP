@@ -121,7 +121,7 @@ The comprehensive MLP training dataset containing approximately 90,000 atomic co
 
 If you use this code in your research, please cite our work:
 
-> Self-Reinforcing AI Agents Accelerate Active Learning ML Potential-Driven Aluminum Nanoparticle Combustion Simulations
+> AI Agents Reveal the “Oxide Gatekeeper” in Aluminum Nanoparticle Oxidation
 > 
 > **Authors:**
 > - **Yiming Lu**
