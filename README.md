@@ -44,8 +44,11 @@ Auto-MLP/
 │   ├── gaussian_density.py  # Gaussian density analysis for particle evolution
 │   ├── soap_analysis.py     # SOAP descriptor calculation & diversity selection
 │   ├── mcp_viz.py           # MCP server for 3D atomic visualization
-│   └── mcp_inference.py     # MCP server for MLP inference (DeepMD)
-├── data/               # Sample data (structures, models)
+│   ├── mcp_inference.py     # MCP server for MLP inference (DeepMD)
+│   └── mcp_mlp_sentinel.py  # Advanced MCP for active learning supervision
+├── data/               # Simulation data & assets
+│   ├── MDtrajs/             # MD trajectory files (.extxyz)
+│   └── videos/              # Simulation visualization videos (.mp4)
 ├── docs/               # Documentation
 ├── examples/           # Usage examples
 ├── scripts/            # Utility scripts
@@ -107,7 +110,19 @@ python src/mcp_viz.py
 
 # Inference Server
 python src/mcp_inference.py
+
+# Sentinel Active Learning Supervisor
+python src/mcp_mlp_sentinel.py
 ```
+
+## Simulation Data
+
+This repository includes molecular dynamics (MD) trajectories and corresponding visualization videos for aluminum nanoparticle combustion:
+
+*   **Bare Metal Nanoparticles:** MD trajectories and videos at 1000K, 1500K, 1700K, and 2000K.
+*   **Core-Shell Nanoparticles:** MD trajectories and videos at 1200K, 1500K, 1700K, and 2000K.
+
+All trajectory files are stored in `data/MDtrajs/` in `.extxyz` format, and visualization videos are in `data/videos/`.
 
 ## Data Availability
 
