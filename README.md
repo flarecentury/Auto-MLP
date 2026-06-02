@@ -1,5 +1,15 @@
 # Auto-MLP: AI-Driven Machine Learning Potential Development Framework
 
+## Project Update
+
+Auto-MLP has been upgraded into **MLP Copilot**. The latest runtime, workflow
+documentation, simulation data, and demo assets are now maintained in the
+[`flarecentury/mlpcopilot`](https://github.com/flarecentury/mlpcopilot)
+repository.
+
+This repository is kept for the earlier Auto-MLP research framework, core
+computational modules, and historical reference.
+
 ## Quick Start: Online AI Agent Demo
 
 Experience the AI-driven research assistant immediately:
